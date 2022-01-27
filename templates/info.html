@@ -3,7 +3,7 @@
     <body>
         <center>
         <header> Enter the details</header>
-        <form action="http://127.0.0.1:5000/api_predict" method="POST">
+        <form action="{{url_for('api_predict')}}" method="POST">
         <p>sepal_length <input type="text" name="sepal_length" placeholder="sepal length"/></p><br><br>
         <p>sepal_width <input type="text" name="sepal_width" placeholder="sepal_width"/></p><br><br>
         <p>petal_length <input type="text" name="petal_length" placeholder="petal length"/></p><br><br>
